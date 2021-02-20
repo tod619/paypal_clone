@@ -13,3 +13,17 @@ html {
   font-size: 62.5%;
 }
 /* End: Global Styles + Reset */
+
+/* Start: Section 1 */
+.section-1 {
+  width: 100%;
+  height: 65vh;
+  background: linear-gradient(
+      to top,
+      rgba(38, 38, 38, 0.7),
+      rgba(38, 38, 38, 0.6)
+    ),
+    url(images/bg.jpg) center no-repeat;
+  background-size: cover;
+}
+/* End: Section 1 */
