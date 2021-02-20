@@ -1,0 +1,15 @@
+/* Start: Global Styles + Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  outline: none;
+  font-family: "Baloo Da 2", cursive;
+}
+
+html {
+  font-size: 62.5%;
+}
+/* End: Global Styles + Reset */
