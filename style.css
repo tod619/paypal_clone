@@ -208,4 +208,33 @@ html {
   letter-spacing: 0.1rem;
   margin-bottom: 3rem;
 }
+
+.services {
+  display: flex;
+}
+
+.service {
+  width: 35rem;
+  text-align: center;
+  margin: 0 5rem;
+}
+
+.service i {
+  font-size: 6rem;
+  color: #229fe7;
+  margin: 2rem 0;
+}
+
+.service-heading {
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.service-paragraph {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
 /* End: Section 2 */
