@@ -95,6 +95,8 @@ html {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  opacity: 0;
+  visibility: hidden;
 }
 
 .nav-dropdown-item {
@@ -112,10 +114,6 @@ html {
 .nav-dropdown-link-2 {
   font-size: 1.3rem;
   color: #fff;
-}
-
-.nav-dropdown-2 {
-  display: none;
 }
 
 .nav-list-link {
