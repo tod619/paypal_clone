@@ -83,6 +83,10 @@ html {
   border-bottom: 0.2rem solid #fff;
 }
 
+.nav-dropdown-2 {
+  display: none;
+}
+
 .nav-list-link {
   width: 100%;
   height: 100%;
