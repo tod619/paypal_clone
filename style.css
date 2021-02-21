@@ -237,4 +237,22 @@ html {
   margin-bottom: 2rem;
   line-height: 1.2;
 }
+
+.service-btn {
+  width: 20rem;
+  padding: 1.5rem;
+  background-color: transparent;
+  border: 0.1rem solid #036bb1;
+  border-radius: 3rem;
+  color: #036bb1;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.service-btn:hover {
+  background-color: #036bb1;
+  color: #fff;
+}
 /* End: Section 2 */
