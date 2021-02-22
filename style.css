@@ -12,6 +12,19 @@
 html {
   font-size: 62.5%;
 }
+
+.blue-btn {
+  width: 35rem;
+  height: 5rem;
+  background-color: #036bb1;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  border-radius: 3rem;
+  border: none;
+  cursor: pointer;
+}
 /* End: Global Styles + Reset */
 
 /* Start: Section 1 */
@@ -178,18 +191,6 @@ html {
   margin: 0 auto 4rem auto;
 }
 
-.blue-btn {
-  width: 35rem;
-  height: 5rem;
-  background-color: #036bb1;
-  color: #fff;
-  font-size: 1.6rem;
-  font-weight: 600;
-  letter-spacing: 0.1rem;
-  border-radius: 3rem;
-  border: none;
-  cursor: pointer;
-}
 /* End: Section 1 */
 
 /* Start: Section 2 */
@@ -364,3 +365,22 @@ html {
   align-items: center;
 }
 /* End: Section 4 */
+
+/* Start: Section 5 */
+.section-5 {
+  width: 100%;
+}
+
+.section-5-top {
+  width: 100%;
+  background-color: #f3f7fa;
+  text-align: center;
+  padding: 7rem 0;
+}
+
+.section-5-top-heading {
+  font-size: 3.5rem;
+  font-weight: 400;
+  margin-bottom: 4rem;
+}
+/* End: Section 5 */
