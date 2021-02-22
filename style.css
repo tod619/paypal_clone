@@ -27,6 +27,10 @@ html {
 }
 /* End: Global Styles + Reset */
 
+.front-page {
+  display: none;
+}
+
 /* Start: Section 1 */
 .section-1 {
   width: 100%;
