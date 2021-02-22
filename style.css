@@ -13,6 +13,29 @@ html {
   font-size: 62.5%;
 }
 
+.logo {
+  font-size: 3.5rem;
+  font-style: italic;
+  font-weight: 800;
+  color: #fff;
+  position: relative;
+}
+
+.p-1 {
+  font-size: 4.5rem;
+  margin-right: 1rem;
+  position: relative;
+  z-index: 10;
+}
+
+.p-2 {
+  font-size: 4.5rem;
+  color: #bbb;
+  position: absolute;
+  top: 0.4rem;
+  left: 0.5rem;
+}
+
 .blue-btn {
   width: 35rem;
   height: 5rem;
@@ -59,29 +82,6 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.navbar-logo {
-  font-size: 3.5rem;
-  font-style: italic;
-  font-weight: 800;
-  color: #fff;
-  position: relative;
-}
-
-.p-1 {
-  font-size: 4.5rem;
-  margin-right: 1rem;
-  position: relative;
-  z-index: 10;
-}
-
-.p-2 {
-  font-size: 4.5rem;
-  color: #bbb;
-  position: absolute;
-  top: 0.4rem;
-  left: 0.5rem;
 }
 
 .nav-list {
