@@ -256,3 +256,26 @@ html {
   color: #fff;
 }
 /* End: Section 2 */
+
+/* Start: Section 3 */
+.section-3 {
+  width: 100%;
+  padding: 5rem 0;
+  background: linear-gradient(
+    to right,
+    rgba(3, 33, 129, 0.9),
+    rgba(9, 67, 153, 0.8),
+    rgba(4, 32, 124, 0.9)
+  );
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-3-heading {
+  font-size: 5rem;
+  font-weight: 300;
+  margin-bottom: 5rem;
+}
+/* End: Section 3 */
