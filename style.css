@@ -51,7 +51,6 @@ html {
 /* End: Global Styles + Reset */
 
 .front-page {
-  display: none;
 }
 
 /* Start: Section 1 */
@@ -559,7 +558,7 @@ html {
     rgba(112, 112, 112, 0.9),
     rgba(255, 255, 255, 0.8) 10%
   );
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
 }
