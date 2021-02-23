@@ -453,4 +453,24 @@ html {
   border: 0.1rem solid #cfcfcf;
   padding: 3rem;
 }
+
+.login-page-logo {
+  margin-bottom: 1.2rem;
+}
+
+.login-page-logo .p-1 {
+  color: #064699;
+}
+
+.login-page-logo .p-2 {
+  color: #32a4f0;
+}
+
+.login-page-logo span:nth-child(3) {
+  color: #064699;
+}
+
+.login-page-logo span:nth-child(4) {
+  color: #32a4f0;
+}
 /* End: Login Page */
