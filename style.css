@@ -589,8 +589,35 @@ html {
   color: #fff;
 }
 
+.signup-page-content {
+  width: 120rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.signup-page-content-left {
+  width: 60%;
+  border-right: 0.1rem solid #b1b1b1;
+  padding: 3rem 3rem 3rem 0;
+}
+
+.content-left-images {
+  display: flex;
+  margin-bottom: 5rem;
+}
+
 .content-left-images img {
   width: 18rem;
+  border-radius: 50%;
+  border: 1.5rem solid #ccc;
+  margin-right: 5rem;
+}
+
+.signup-page-content-left h1 {
+  font-size: 4rem;
+  font-weight: 300;
+  color: #333;
+  line-height: 1.1;
 }
 
 /* End: Sign Up Page */
