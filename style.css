@@ -19,6 +19,7 @@ html {
   font-weight: 800;
   color: #fff;
   position: relative;
+  cursor: pointer;
 }
 
 .p-1 {
@@ -50,8 +51,8 @@ html {
 }
 /* End: Global Styles + Reset */
 
-.front-page {
-}
+/* .front-page {
+} */
 
 /* Start: Section 1 */
 .section-1 {

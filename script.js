@@ -1,3 +1,29 @@
+// Start: Page Selection
+document.querySelectorAll(".logo").forEach(logo => {
+        logo.addEventListener("click", () => {
+                document.querySelector(".front-page").style.display = "block"
+                document.querySelector(".login-page").style.display = "none"
+                document.querySelector(".signup-page").style.display = "none"
+        })
+})
+
+document.querySelectorAll(".login").forEach(login => {
+        login.addEventListener("click", () => {
+                document.querySelector(".front-page").style.display = "none"
+                document.querySelector(".login-page").style.display = "block"
+                document.querySelector(".signup-page").style.display = "none"
+        })
+})
+
+document.querySelectorAll(".signup").forEach(signup => {
+        signup.addEventListener("click", () => {
+                document.querySelector(".front-page").style.display = "none"
+                document.querySelector(".login-page").style.display = "none"
+                document.querySelector(".signup-page").style.display = "flex"
+        })
+})
+// End: Page Selection
+
 // Start: Navigation dropdown menu
 const dropdownItems = document.querySelectorAll(".dropdown-hover");
 
