@@ -720,4 +720,41 @@ html {
   }
 }
 
+@media (max-width: 1200px) {
+  .signup-page-top {
+    width: 90rem;
+  }
+
+  .signup-page-content {
+    width: 90rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .signup-page-content-left {
+    width: 100%;
+    border-right: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-bottom: 0.1rem solid #b1b1b1;
+  }
+
+  .signup-page-content-right {
+    width: 100%;
+    padding: 3rem;
+  }
+
+  .input-group input[type="radio"] {
+    width: 10%;
+    margin: 0.5rem 0 0 -3rem;
+  }
+
+  .signup-page-content-right .blue-btn {
+    width: 100%;
+    margin: 3rem 0;
+  }
+}
+
 /* End: Media Query */
