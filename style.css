@@ -51,9 +51,6 @@ html {
 }
 /* End: Global Styles + Reset */
 
-/* .front-page {
-} */
-
 /* Start: Section 1 */
 .section-1 {
   width: 100%;
@@ -657,3 +654,27 @@ html {
 }
 
 /* End: Sign Up Page */
+
+/* ***************************************************************************************************************************** */
+
+/* Start: Media Queries */
+
+@media (max-width: 1500px) {
+  .nav-dropdown {
+    padding: 0 25rem;
+  }
+
+  .nav-dropdown-item {
+    margin: 2rem 6rem;
+  }
+
+  .features {
+    width: 80%;
+  }
+
+  .feature {
+    padding: 0 3rem;
+  }
+}
+
+/* End: Media Query */
