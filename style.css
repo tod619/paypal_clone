@@ -757,4 +757,10 @@ html {
   }
 }
 
+@media (max-width: 1100px) {
+  .nav-dropdown-item {
+    margin: 2rem 3.4rem;
+  }
+}
+
 /* End: Media Query */
