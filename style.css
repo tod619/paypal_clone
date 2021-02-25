@@ -773,6 +773,13 @@ html {
     padding: 0 5rem;
   }
 
+  .navbar-logo {
+    position: absolute;
+    top: 4rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
   .menu {
     width: 11rem;
     height: 4rem;
@@ -782,6 +789,13 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+  }
+
+  .change .menu {
+    transform: translateX(16rem);
+    position: fixed;
+    top: 2rem;
+    left: 6rem;
   }
 
   .menu-icon {
@@ -868,6 +882,10 @@ html {
   .nav-list-item i {
     font-size: 1.2rem;
     transform: rotate(-90deg);
+  }
+
+  .navbar-buttons {
+    margin-left: auto;
   }
 }
 
