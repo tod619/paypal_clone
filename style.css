@@ -782,7 +782,6 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    transform: translateX(16rem);
   }
 
   .menu-icon {
@@ -804,11 +803,12 @@ html {
   }
 
   .nav-list,
-  .nav-dropdown-personal {
+  .nav-dropdown-personal,
+  .nav-dropdown-business {
     /* display: none; */
     position: fixed;
     top: 0;
-    left: 0;
+    left: -20rem;
     width: 20rem;
     height: 100vh;
     background: linear-gradient(to bottom, #032181, #094399, #04207c);
@@ -817,7 +817,8 @@ html {
     z-index: 200;
   }
 
-  .nav-dropdown-personal {
+  .nav-dropdown-personal,
+  .nav-dropdown-business {
     opacity: 1;
     visibility: visible;
     padding: 1rem;
@@ -867,10 +868,6 @@ html {
   .nav-list-item i {
     font-size: 1.2rem;
     transform: rotate(-90deg);
-  }
-
-  .nav-dropdown-business {
-    display: none;
   }
 }
 
