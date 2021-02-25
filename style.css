@@ -81,6 +81,10 @@ html {
   align-items: center;
 }
 
+.menu {
+  display: none;
+}
+
 .nav-list {
   display: flex;
 }
@@ -118,6 +122,10 @@ html {
   margin: 2rem 10rem;
   display: flex;
   flex-direction: column;
+}
+
+.dropdown-heading {
+  display: none;
 }
 
 .nav-dropdown-link-1 {
@@ -865,6 +873,10 @@ html {
   .nav-dropdown-item {
     width: 100%;
     margin: 1rem 1rem 0 1rem;
+  }
+
+  .dropdown-heading {
+    display: block;
   }
 
   .dropdown-heading a {
