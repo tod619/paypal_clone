@@ -147,10 +147,6 @@ html {
   transition: transform 0.3s;
 }
 
-.nav-list-item:hover .nav-list-link i {
-  transform: rotateZ(180deg);
-}
-
 .navbar-btn {
   width: 8rem;
   padding: 0.7rem;
