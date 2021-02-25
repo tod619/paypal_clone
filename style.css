@@ -768,6 +768,40 @@ html {
     font-size: 50%;
   }
 
+  .navbar {
+    width: 100%;
+    padding: 0 5rem;
+  }
+
+  .menu {
+    width: 11rem;
+    height: 4rem;
+    border: 0.1rem solid #fff;
+    border-radius: 3rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .menu-icon {
+    height: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .line {
+    width: 2rem;
+    height: 0.1rem;
+    background-color: #fff;
+  }
+
+  .menu span {
+    font-size: 1.8rem;
+    color: #fff;
+  }
+
   .nav-list {
     display: none;
   }
