@@ -1044,4 +1044,78 @@ html {
   }
 }
 
+@media (max-width: 550px) {
+  .navbar-logo {
+    display: none;
+  }
+
+  .banner-heading {
+    font-size: 4.5rem;
+  }
+
+  .banner-paragraph {
+    line-height: 1.2;
+  }
+
+  .services {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service {
+    width: 60%;
+    margin-bottom: 4rem;
+  }
+
+  .section-3-heading {
+    font-size: 4rem;
+  }
+
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature {
+    width: 80%;
+  }
+
+  .section-4-heading {
+    font-size: 4rem;
+  }
+
+  .section-4-content {
+    width: 100%;
+    padding: 0 3rem;
+  }
+
+  .section-4-img-wrapper {
+    display: none;
+  }
+
+  .section-4-list {
+    align-items: flex-start;
+  }
+
+  .footer-top {
+    width: 90%;
+  }
+
+  .signup-page-top {
+    width: 40rem;
+  }
+
+  .signup-page-content {
+    width: 100%;
+  }
+
+  .signup-page-content-left {
+    display: none;
+  }
+
+  .signup-page-content-right {
+    width: 100%;
+  }
+}
+
 /* End: Media Query */
