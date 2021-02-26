@@ -965,4 +965,83 @@ html {
   }
 }
 
+@media (max-width: 800px) {
+  html {
+    font-size: 45%;
+  }
+
+  .section-2 {
+    padding: 10rem 0;
+  }
+
+  .section-2-heading {
+    width: 80%;
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  .services {
+    width: 95%;
+  }
+
+  .service {
+    width: 30rem;
+    margin: 0 2rem;
+  }
+
+  .service i {
+    font-size: 4rem;
+  }
+
+  .service-btn {
+    width: 15rem;
+    padding: 1rem;
+  }
+
+  .features {
+    width: 100%;
+  }
+
+  .feature {
+    width: 50%;
+    padding: 0 4rem;
+  }
+
+  .signup-page-top {
+    width: 50rem;
+  }
+
+  .signup-page-content {
+    width: 85%;
+    padding: 0 3rem;
+  }
+
+  .signup-page-content-left {
+    width: 100%;
+    padding: 3rem;
+  }
+
+  .content-left-images img {
+    width: 14rem;
+    margin: 0 1.5rem;
+    border: 1rem solid #ccc;
+  }
+
+  .signup-page-content-left h1 {
+    font-size: 3rem;
+  }
+
+  .signup-page-content-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+  }
+
+  .input-group input[type="radio"] {
+    width: 20%;
+    margin: 0.5rem 1.5rem 0 0;
+  }
+}
+
 /* End: Media Query */
