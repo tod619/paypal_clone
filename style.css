@@ -1118,4 +1118,22 @@ html {
   }
 }
 
+@media (max-width: 400px) {
+  html {
+    font-size: 40%;
+  }
+
+  .menu {
+    width: 5rem;
+  }
+
+  .menu span {
+    display: none;
+  }
+
+  .number {
+    min-width: 3.5rem;
+  }
+}
+
 /* End: Media Query */
